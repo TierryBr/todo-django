@@ -3,5 +3,50 @@
 {% block title %}Lista de tarefas{% endblock %}
 
 {% block content %}
-  <h1>lista de tarefas</h1>
+  <div class="offset-1 col-10 list-div">
+    <h1>Lista de tarefas</h1>
+    <div class="col-1.7 add-div">
+      <i class="fas fa-plus"></i> Adicionar
+    </div>
+    <div class="col-9 search-div">
+      <input class="form-control" type="text" id="search" name="search" placeholder="Digite o nome da tarefa para buscar">
+    </div>
+    <div class="task-list">
+      <li class="task-item">
+        <span>Título da tarefa</span>
+        <div class="list-icons">
+          <span><i class="fas fa-trash"></i></span>
+          <span><i class="fas fa-edit"></i></span>
+        </div>
+      </li>
+      <li class="task-item">
+        <span>Título da tarefa</span>
+        <div class="list-icons">
+          <span><i class="fas fa-trash"></i></span>
+          <span><i class="fas fa-edit"></i></span>
+        </div>
+      </li>
+      <li class="task-item">
+        <span>Título da tarefa</span>
+        <div class="list-icons">
+          <span><i class="fas fa-trash"></i></span>
+          <span><i class="fas fa-edit"></i></span>
+        </div>
+      </li>
+      <li class="task-item">
+        <span>Título da tarefa</span>
+        <div class="list-icons">
+          <span><i class="fas fa-trash"></i></span>
+          <span><i class="fas fa-edit"></i></span>
+        </div>
+      </li>
+      <li class="task-item">
+        <span>Título da tarefa</span>
+        <div class="list-icons">
+          <span><i class="fas fa-trash"></i></span>
+          <span><i class="fas fa-edit"></i></span>
+        </div>
+      </li>
+    </div>
+  </div>
 {% endblock %}
