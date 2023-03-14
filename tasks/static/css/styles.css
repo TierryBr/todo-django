@@ -73,6 +73,10 @@
   color: green;
 }
 
+#add-link {
+  text-decoration: none;
+}
+
 /* Footer */
 footer {
   background-color: #333;

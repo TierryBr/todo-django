@@ -5,9 +5,11 @@
 {% block content %}
   <div class="offset-1 col-10 list-div">
     <h1>Lista de tarefas</h1>
-    <div class="col-1.7 add-div">
-      <i class="fas fa-plus"></i> Adicionar
-    </div>
+    <a id="add-link" href="newtask/">
+      <div class="col-1.7 add-div">
+        <i class="fas fa-plus"></i> Adicionar
+      </div>
+    </a>
     <div class="col-9 search-div">
       <input class="form-control" type="text" id="search" name="search" placeholder="Digite o nome da tarefa para buscar">
     </div>
